@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <section class="hero">
+        <div class="container">
+            <header class="hero__header">
+                <nav class="hero__navigation">
+                    <ul class="hero__list">
+                        <li class="hero__list-item"><a href="#" class="hero__list-link">Главная</a></li>
+                        <li class="hero__list-item"><a href="#" class="hero__list-link">Продукты</a></li>
+                        <li class="hero__list-item"><a href="#" class="hero__list-link">Кейсы</a></li>
+                        <li class="hero__list-item"><a href="#" class="hero__list-link">Экспертное мнение</a></li>
+                        <li class="hero__list-item"><a href="#" class="hero__list-link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <button class="hero__request">
+                    Запросить презентацию
+                </button>
+                
+            </header>
+            <div class="hero__logo">
+                <a href="#">
+                    <img src="./images/logo.svg" alt="">
+                </a>
+            </div>
+            <div class="hero__main">
+                <h1 class="hero__title">
+                    AI-Driven Analytics Platform
+                </h1>
+                <div class="hero__inner">
+                    <div class="hero__item">
+                        <img src="./images/item01.png" alt="">
+                        <h2 class="hero__item-title">
+                            Обработка данных
+                        </h2>
+                        <div class="hero__item-description">
+                            Мы помогаем клиентам подобрать необходимые источники данных (через Pop UP нужно показать логотипы: Все ОФД, Nielsen, Едадил, СкидкиОнлайн). Валидируем и верифицируем их. Приводим их к единому формату и классификатору. 
+                        </div>
+                    </div>
+                    <div class="hero__item">
+                        <img src="./images/item02.png" alt="">
+                        <h2 class="hero__item-title">
+                            Анализ
+                        </h2>
+                        <div class="hero__item-description">
+                            Мы помогаем клиентам подобрать необходимые источники данных (через Pop UP нужно показать логотипы: Все ОФД, Nielsen, Едадил, СкидкиОнлайн). Валидируем и верифицируем их. Приводим их к единому формату и классификатору. 
+                        </div>
+                    </div>
+                    <div class="hero__item">
+                        <img src="./images/item03.png" alt="">
+                        <h2 class="hero__item-title">
+                            Визуализация
+                        </h2>
+                        <div class="hero__item-description">
+                            Мы помогаем клиентам подобрать необходимые источники данных (через Pop UP нужно показать логотипы: Все ОФД, Nielsen, Едадил, СкидкиОнлайн). Валидируем и верифицируем их. Приводим их к единому формату и классификатору. 
+                        </div>
+                    </div>
+                    <div class="hero__item">
+                        <img src="./images/item04.png" alt="">
+                        <h2 class="hero__item-title">
+                            Интерпретация
+                        </h2>
+                        <div class="hero__item-description">
+                            Мы помогаем клиентам подобрать необходимые источники данных (через Pop UP нужно показать логотипы: Все ОФД, Nielsen, Едадил, СкидкиОнлайн). Валидируем и верифицируем их. Приводим их к единому формату и классификатору. 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero__bottom">
+            <img src="./images/Vector.png" alt="">
+        </div>
+    </section>
+
+    <section class="data">
+        <div class="container">
+            <div class="data__inner">
+                <div class="data__pressure">
+                    <h2 class="title title--widthLeft">
+                        Промо-давление
+                        увеличивается
+                    </h2>
+                    <div class="data__pressure-block">
+                        <canvas id="myChart"></canvas>
+                        <button class="data__pressure-btn">
+                            Почему увеличивается?
+                        </button>
+                    </div>
+                </div>
+                <div class="data__content">
+                    <h2 class="title title--widthRight">
+                        80% данных не используется
+                        производителями
+                    </h2>
+                    <div class="data__content-image">
+                        <img src="./images/man.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="slider">
+        <div class="container">
+            <h2 class="title title--widthBottom">
+                Собираем и обрабатываем 
+                гранулярные данные на уровне сети
+            </h2>
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <div class="slider__handling">
+                        <div class="slider__name">
+                            <span class="slider__name-number">1</span>
+                            <h3 class="slider__name-title">Обработка данных</h3>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-icon">
+                                <img src="./images/item02.png" alt="">
+                            </div>
+                            <p class="slider__item-description">
+                                Мы используем точные алгоритмы и машинное обучение
+                            </p>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-icon">
+                                <img src="./images/item01.png" alt="">
+                            </div>
+                            <p class="slider__item-description">
+                                Консолидируем, проверяем, визуализируем и интерпретируем информацию.
+                            </p>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-icon">
+                                <img src="./images/item05.png" alt="">
+                            </div>
+                            <p class="slider__item-description">
+                                Разрабатываем рекомендации
+                                для эффективной промо-стратегии
+                                и тактических решений
+                            </p>
+                        </div>
+                    </div>
+                    <div class="slider__change">
+                        <div class="slider__name">
+                            <span class="slider__name-number">2</span>
+                            <h3 class="slider__name-title slider__name-title--width">Преобразование данных</h3>
+                            
+                        </div>
+                        <div class="slider__change-inner">
+                            <div class="slider__change-options">
+                                <p class="slider__change-item slider__change-item--widthLeft">
+                                    Ежемесячные
+                                </p>
+                                <div class="slider__change-image">
+                                    <img src="./images/arrow.png" alt="">
+                                </div>
+                                <p class="slider__change-item slider__change-item--widthRight">
+                                    Еженедельные
+                                </p>
+                            </div>
+                            <div class="slider__change-options">
+                                <p class="slider__change-item slider__change-item--widthLeft">
+                                    Сырые данные
+                                </p>
+                                <div class="slider__change-image">
+                                    <img src="./images/arrow.png" alt="">
+                                </div>
+                                <p class="slider__change-item slider__change-item--widthRight">
+                                    Промо/регулярные
+                                </p>
+                            </div>
+                            <div class="slider__change-options">
+                                <p class="slider__change-item slider__change-item--widthLeft">
+                                    Промо/
+                                    регулярные
+                                </p>
+                                <div class="slider__change-image">
+                                    <img src="./images/arrow.png" alt="">
+                                </div>
+                                <p class="slider__change-item slider__change-item--widthRight">
+                                    Базовые/
+                                    Инкрементальные
+                                </p>
+                            </div>
+                            <div class="slider__change-options">
+                                <p class="slider__change-item slider__change-item--widthLeft">
+                                    Дистрибуция
+                                </p>
+                                <div class="slider__change-image">
+                                    <img src="./images/arrow.png" alt="">
+                                </div>
+                                <p class="slider__change-item slider__change-item--widthRight">
+                                    Конкретное
+                                    окружение
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slider__handling">
+                        <div class="slider__name">
+                            <span class="slider__name-number">1</span>
+                            <h3 class="slider__name-title">Обработка данных</h3>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-icon">
+                                <img src="./images/item02.png" alt="">
+                            </div>
+                            <p class="slider__item-description">
+                                Мы используем точные алгоритмы и машинное обучение
+                            </p>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-icon">
+                                <img src="./images/item01.png" alt="">
+                            </div>
+                            <p class="slider__item-description">
+                                Консолидируем, проверяем, визуализируем и интерпретируем информацию.
+                            </p>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-icon">
+                                <img src="./images/item05.png" alt="">
+                            </div>
+                            <p class="slider__item-description">
+                                Разрабатываем рекомендации
+                                для эффективной промо-стратегии
+                                и тактических решений
+                            </p>
+                        </div>
+                    </div>
+                    <div class="slider__change">
+                        <div class="slider__name">
+                            <span class="slider__name-number">2</span>
+                            <h3 class="slider__name-title slider__name-title--width">Преобразование данных</h3>
+                            
+                        </div>
+                        <div class="slider__change-inner">
+                            <div class="slider__change-options">
+                                <p class="slider__change-item slider__change-item--widthLeft">
+                                    Ежемесячные
+                                </p>
+                                <div class="slider__change-image">
+                                    <img src="./images/arrow.png" alt="">
+                                </div>
+                                <p class="slider__change-item slider__change-item--widthRight">
+                                    Еженедельные
+                                </p>
+                            </div>
+                            <div class="slider__change-options">
+                                <p class="slider__change-item slider__change-item--widthLeft">
+                                    Сырые данные
+                                </p>
+                                <div class="slider__change-image">
+                                    <img src="./images/arrow.png" alt="">
+                                </div>
+                                <p class="slider__change-item slider__change-item--widthRight">
+                                    Промо/регулярные
+                                </p>
+                            </div>
+                            <div class="slider__change-options">
+                                <p class="slider__change-item slider__change-item--widthLeft">
+                                    Промо/
+                                    регулярные
+                                </p>
+                                <div class="slider__change-image">
+                                    <img src="./images/arrow.png" alt="">
+                                </div>
+                                <p class="slider__change-item slider__change-item--widthRight">
+                                    Базовые/
+                                    Инкрементальные
+                                </p>
+                            </div>
+                            <div class="slider__change-options">
+                                <p class="slider__change-item slider__change-item--widthLeft">
+                                    Дистрибуция
+                                </p>
+                                <div class="slider__change-image">
+                                    <img src="./images/arrow.png" alt="">
+                                </div>
+                                <p class="slider__change-item slider__change-item--widthRight">
+                                    Конкретное
+                                    окружение
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="slider__handling">
+                        <div class="slider__name">
+                            <span class="slider__name-number">1</span>
+                            <h3 class="slider__name-title">Обработка данных</h3>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-icon">
+                                <img src="./images/item02.png" alt="">
+                            </div>
+                            <p class="slider__item-description">
+                                Мы используем точные алгоритмы и машинное обучение
+                            </p>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-icon">
+                                <img src="./images/item01.png" alt="">
+                            </div>
+                            <p class="slider__item-description">
+                                Консолидируем, проверяем, визуализируем и интерпретируем информацию.
+                            </p>
+                        </div>
+                        <div class="slider__item">
+                            <div class="slider__item-icon">
+                                <img src="./images/item05.png" alt="">
+                            </div>
+                            <p class="slider__item-description">
+                                Разрабатываем рекомендации
+                                для эффективной промо-стратегии
+                                и тактических решений
+                            </p>
+                        </div>
+                    </div>
+                    <div class="slider__change">
+                        <div class="slider__name">
+                            <span class="slider__name-number">2</span>
+                            <h3 class="slider__name-title slider__name-title--width">Преобразование данных</h3>
+                            
+                        </div>
+                        <div class="slider__change-inner">
+                            <div class="slider__change-options">
+                                <p class="slider__change-item slider__change-item--widthLeft">
+                                    Ежемесячные
+                                </p>
+                                <div class="slider__change-image">
+                                    <img src="./images/arrow.png" alt="">
+                                </div>
+                                <p class="slider__change-item slider__change-item--widthRight">
+                                    Еженедельные
+                                </p>
+                            </div>
+                            <div class="slider__change-options">
+                                <p class="slider__change-item slider__change-item--widthLeft">
+                                    Сырые данные
+                                </p>
+                                <div class="slider__change-image">
+                                    <img src="./images/arrow.png" alt="">
+                                </div>
+                                <p class="slider__change-item slider__change-item--widthRight">
+                                    Промо/регулярные
+                                </p>
+                            </div>
+                            <div class="slider__change-options">
+                                <p class="slider__change-item slider__change-item--widthLeft">
+                                    Промо/
+                                    регулярные
+                                </p>
+                                <div class="slider__change-image">
+                                    <img src="./images/arrow.png" alt="">
+                                </div>
+                                <p class="slider__change-item slider__change-item--widthRight">
+                                    Базовые/
+                                    Инкрементальные
+                                </p>
+                            </div>
+                            <div class="slider__change-options">
+                                <p class="slider__change-item slider__change-item--widthLeft">
+                                    Дистрибуция
+                                </p>
+                                <div class="slider__change-image">
+                                    <img src="./images/arrow.png" alt="">
+                                </div>
+                                <p class="slider__change-item slider__change-item--widthRight">
+                                    Конкретное
+                                    окружение
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
