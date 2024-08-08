@@ -295,28 +295,27 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-transition: background 1s, height 1s, width 0.4s;
-  -o-transition: background 1s, height 1s, width 0.4s;
-  transition: background 1s, height 1s, width 0.4s;
+  -webkit-transition: background 1s, height 1s, width 1s;
+  -o-transition: background 1s, height 1s, width 1s;
+  transition: background 1s, height 1s, width 1s;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  overflow: hidden;
 }
 .hero__item-description {
+  display: none;
   text-align: left;
   font-size: 16px;
   color: #FFFFFF;
   margin-top: 15px;
   max-height: 89px;
   opacity: 0;
-  -webkit-transition: opacity 0.4s, height 0.4s;
-  -o-transition: opacity 0.4s, height 0.4s;
-  transition: opacity 0.4s, height 0.4s;
-  -webkit-transition-delay: 0.1s;
-       -o-transition-delay: 0.1s;
-          transition-delay: 0.1s;
-  height: 0;
+  -webkit-transition: opacity 0.4s;
+  -o-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+  -webkit-transition-delay: 0.6s;
+       -o-transition-delay: 0.6s;
+          transition-delay: 0.6s;
   line-height: 24px;
 }
 .hero__item-top {
@@ -358,8 +357,7 @@ a {
   margin-top: 25px;
 }
 .hero__item:hover .hero__item-description {
-  height: 100px;
-  opacity: 1;
+  display: block;
 }
 .hero__item img {
   width: 73px;

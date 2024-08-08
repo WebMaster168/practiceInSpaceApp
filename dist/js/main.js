@@ -1,4 +1,4 @@
-// Бургер меню
+// Бургер меню и ПОПАП
 
 const burgerBtn = document.querySelector('.hero__burger')
 const popup = document.querySelector('.hero__navigation')
@@ -8,6 +8,8 @@ burgerBtn.addEventListener('click', ()=>{
     popup.classList.toggle('visible')
     
 })
+
+
 
 
 // Построение граффика
