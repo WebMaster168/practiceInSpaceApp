@@ -170,7 +170,9 @@
 
 @media(max-width:576px){
     .hero{
-        
+        &__burger{
+            
+        }
         &__item{
             width: 100%;
             &:hover{

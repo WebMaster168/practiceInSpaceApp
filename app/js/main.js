@@ -65,7 +65,7 @@ const myChart = new Chart(ctx, {
 
 const swiper = new Swiper('.swiper', {
     // Optional parameters
-    
+    slidesPerView:2,
     
   
     // If we need pagination
