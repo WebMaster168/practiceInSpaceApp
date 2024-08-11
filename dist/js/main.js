@@ -65,9 +65,28 @@ const myChart = new Chart(ctx, {
 
 const swiper = new Swiper('.swiper', {
     // Optional parameters
+<<<<<<< HEAD
     slidesPerView:2,
     
   
+=======
+    
+    slidesPerView:2,
+    spaceBetween:240,
+    breakpoints:{
+        1200: {
+            spaceBetween: 240
+        },
+        992: {
+            slidesPerView:2,
+            spaceBetween: 80
+        },
+        320: {
+            slidesPerView:1
+        }
+        
+    },
+>>>>>>> 68f68a950cc4d8f64f5f5f35155fba0790f46241
     // If we need pagination
     pagination: {
       el: '.swiper-pagination',

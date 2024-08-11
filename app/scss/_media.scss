@@ -88,6 +88,13 @@
     .swiper{
         margin-top: 24px;
     }
+    .slider{
+        &__change{
+            &-options{
+                justify-content: space-between;
+            }
+        }
+    }
 }
 @media(max-width:900px){
     .swiper{
