@@ -162,19 +162,21 @@ a{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        transition: background 1s, height 1s, width 1s;
+        transition: background 1s, height 1s, width 0.4s;
         align-items: center;
-        
+        overflow: hidden;
         &-description{
-            display: none;
+            
             text-align: left;
             font-size: 16px;
             color: #FFFFFF;
             margin-top: 15px;
             max-height: 89px;
             opacity: 0;
+            
             transition: opacity 0.4s;
-            transition-delay: 0.6s;
+            transition-delay: .1s;
+            height: 0;
             line-height: 24px;
         }
         &-top{
@@ -201,8 +203,8 @@ a{
                 margin-top: 25px;
             }
             .hero__item-description{
-                display: block;
-                
+                height: 100px;
+                opacity: 1;
             }
           }
         img{
@@ -327,10 +329,11 @@ a{
     }
     &__handling{
         display: block;
+        
     }
     &__name{
         position: relative;
-        width: 220px;
+        width: 95%;
         margin-bottom: fluid(20px, 37px);
         &-title{
             font-size: fluid(16px, 18px);
@@ -358,7 +361,7 @@ a{
         
         &-icon{
             img{
-                width: 73px;
+                min-width: 73px;
                 height: 73px;
             }
             
@@ -370,16 +373,17 @@ a{
             font-size: fluid(14px, 16px);
             line-height: fluid(20px, 24px);
             color: #141515;
-            width: fluid(220px, 240px);
+            
             margin-left: fluid(16px, 32px);
         }
         
     }
     &__change{
+        width: 100%;
         &-options{
             display: flex;
             align-items: center;
-            justify-content: end;
+            justify-content: flex-start;
             & + .slider__change-options{
                 margin-top: fluid(30px, 42px);
             }
@@ -390,10 +394,10 @@ a{
         &-item{
             font-size: fluid(26px, 32px);
             &--widthLeft{
-                width: fluid(168px, 210px);
+                width: 37%;
             }
             &--widthRight{
-                width: fluid(243px, 270px);
+                width: 37%;
             }
         }
     }

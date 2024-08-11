@@ -88,6 +88,13 @@
     .swiper{
         margin-top: 24px;
     }
+    .slider{
+        &__change{
+            &-options{
+                justify-content: space-between;
+            }
+        }
+    }
 }
 @media(max-width:900px){
     .swiper{
@@ -170,7 +177,9 @@
 
 @media(max-width:576px){
     .hero{
-        
+        &__burger{
+            
+        }
         &__item{
             width: 100%;
             &:hover{

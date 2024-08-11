@@ -1,4 +1,4 @@
-// Бургер меню и ПОПАП
+// Бургер меню
 
 const burgerBtn = document.querySelector('.hero__burger')
 const popup = document.querySelector('.hero__navigation')
@@ -8,8 +8,6 @@ burgerBtn.addEventListener('click', ()=>{
     popup.classList.toggle('visible')
     
 })
-
-
 
 
 // Построение граффика
@@ -68,8 +66,21 @@ const myChart = new Chart(ctx, {
 const swiper = new Swiper('.swiper', {
     // Optional parameters
     
-    
-  
+    slidesPerView:2,
+    spaceBetween:240,
+    breakpoints:{
+        1200: {
+            spaceBetween: 240
+        },
+        992: {
+            slidesPerView:2,
+            spaceBetween: 80
+        },
+        320: {
+            slidesPerView:1
+        }
+        
+    },
     // If we need pagination
     pagination: {
       el: '.swiper-pagination',
