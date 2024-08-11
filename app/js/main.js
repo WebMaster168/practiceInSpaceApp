@@ -84,3 +84,13 @@ const swiper = new Swiper('.swiper', {
       clickable: true
     }
 })
+
+document.addEventListener("DOMContentLoaded", (event) => {
+    // gsap code here!
+
+    gsap.from(".hero__title", { opacity: 0, y: 100, duration: 1 });
+    gsap.from(".hero__item--delay1", { opacity: 0, y: 100, duration: 1, delay: .2 });
+    gsap.from(".hero__item--delay2", { opacity: 0, y: 100, duration: 1, delay: .5 });
+    gsap.from(".hero__item--delay3", { opacity: 0, y: 100, duration: 1, delay: .8 });
+    gsap.from(".hero__item--delay4", { opacity: 0, y: 100, duration: 1, delay: 1.1 });
+});
